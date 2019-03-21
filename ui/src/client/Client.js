@@ -6,7 +6,7 @@ class Client {
   }
 
   getItems() {
-    return this.axios.get('/users/')
+    return this.axios.get('/items/')
   }
 }
 

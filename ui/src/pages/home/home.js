@@ -1,12 +1,14 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
+
+import Header from 'components/Header'
+import Page from 'components/Page'
 
 const Home = () => (
   <div>
-    <h1>Homepage</h1>
-    <Link to={ '/catalog' }>
-      Catalog
-    </Link>
+    <Header />
+    <Page>
+      <h1>Homepage</h1>
+    </Page>
   </div>
 )
 

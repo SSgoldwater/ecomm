@@ -1,6 +1,8 @@
 import React from 'react'
 import { connect } from 'react-redux'
 
+import Header from 'components/Header'
+import Page from 'components/Page'
 import { getItems } from 'store/actions/item'
 
 let Catalog = ({
@@ -14,7 +16,10 @@ let Catalog = ({
   
   return (
     <div>
-      Catalog
+      <Header />
+      <Page>
+        Catalog
+      </Page>
     </div>
   )
 }
